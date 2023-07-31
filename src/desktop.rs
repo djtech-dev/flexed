@@ -1,6 +1,6 @@
 use serde::{Serialize, Deserialize};
-pub use crate::wayland::*;
-pub use crate::xorg::*;
+pub use crate::wayland::defs::*;
+pub use crate::xorg::defs::*;
 
 /// Your own X11 Desktop Environment
 #[derive(Serialize, Deserialize, Debug)]
@@ -24,7 +24,6 @@ pub struct WaylandDesktop {
 
 impl X11Desktop {
     pub fn launch(self) {}
-    pub fn get_arch_deps(self) {}
 }
 impl WaylandDesktop {
     pub fn launch(self) {}
