@@ -1,2 +1,2 @@
 # flexed
-The most flexible modular stacked Desktop Environment, written in Rust
+A flexible modular [mostly stacked] Desktop Environment, written in Rust.
