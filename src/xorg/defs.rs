@@ -56,7 +56,8 @@ pub enum X11AudioControl {
 }
 #[derive(Serialize, Deserialize, Debug)]
 pub enum X11WallpaperUI {
-    Nitrogen
+    Nitrogen,
+    Komorebi,
 }
 #[derive(Serialize, Deserialize, Debug)]
 pub enum X11ScreenCapture {
